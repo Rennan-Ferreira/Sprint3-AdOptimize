@@ -22,10 +22,10 @@
             android:name=".ExplicacaoActivity"
             android:exported="false" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".QuemSomosActivity"
             android:exported="false" />
         <activity
-            android:name=".QuemSomosActivity"
+            android:name=".WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

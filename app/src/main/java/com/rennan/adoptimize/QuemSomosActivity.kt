@@ -15,11 +15,9 @@ class QuemSomosActivity : AppCompatActivity() {
 
         val imgVoltarQ: ImageView = findViewById(R.id.imgVoltarQuemSomos)
 
-        // Configurando o clique no botão
         imgVoltarQ.setOnClickListener {
-            // Criando um Intent para iniciar a nova Activity
             val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent) // Iniciando a nova Activity
+            startActivity(intent)
         }
 
         val integrantes = mapOf(
