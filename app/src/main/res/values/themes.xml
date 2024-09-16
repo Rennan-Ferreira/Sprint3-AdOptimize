@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AdOptimize" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorSecondary">@color/PrimaryColor</item>
+    </style>
+
+    <style name="Theme.AdOptimize" parent="Base.Theme.AdOptimize" />
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopng"
+    tools:context=".RelatorioActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#F2F2F2"
+        android:fontFamily="@font/aldrich"
+        android:text="Relatórios"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVoltarRelatorios" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="384dp"
+        android:layout_height="608dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="A campanha &quot;Promoção Primavera - Moda 2024&quot; teve como objetivo promover a nova coleção da Fashion Now e aumentar as vendas online. Durante o período de 01 a 15 de setembro de 2024, a campanha foi exibida no Google Ads, YouTube Ads e Google Display.  Foram registradas 1,5 milhão de impressões e 75 mil cliques, com uma taxa de cliques (CTR) de 5%. O custo por clique médio foi de R$ 2,10, resultando em 2.500 conversões e uma taxa de conversão de 3,33%. O custo por aquisição (CPA) médio foi de R$ 63, e o retorno sobre o investimento (ROI) foi de 350%.  O Google Search foi a plataforma com melhor desempenho, gerando 72% das conversões. O Display e YouTube apresentaram conversões menores, mas podem ser otimizados com melhor segmentação e ajustes criativos. Recomenda-se aumentar o investimento no Google Search e trabalhar na qualidade dos anúncios visuais e de vídeo para melhorar o custo-benefício das outras plataformas."
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imgVoltarRelatorios"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btnvoltar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
