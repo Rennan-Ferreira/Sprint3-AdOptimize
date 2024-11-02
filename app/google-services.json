@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691734683619",
+    "project_id": "adoptimize-4",
+    "storage_bucket": "adoptimize-4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691734683619:android:18fcae3aabacf4b8384ad6",
+        "android_client_info": {
+          "package_name": "com.rennan.adoptimize"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4cWxjuW-ZFIevExGRVgM91_6XM5OHs08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

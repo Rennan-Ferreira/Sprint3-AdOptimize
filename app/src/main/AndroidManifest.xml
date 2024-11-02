@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AdOptimize"
         tools:targetApi="31">
         <activity
+            android:name=".ConfiguracoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampanhasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EsqueceuSenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogarActivity"
+            android:exported="false" />
+        <activity
             android:name=".RelatorioActivity"
             android:exported="false" />
         <activity

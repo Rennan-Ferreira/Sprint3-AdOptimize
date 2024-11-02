@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/editListar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundopng"
@@ -24,14 +24,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnp2"
+        android:id="@+id/btnLogar"
         android:layout_width="156dp"
         android:layout_height="55dp"
         android:layout_marginTop="144dp"
-        android:text="Entrar"
+        android:text="LOGAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="159dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:text="CADASTRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

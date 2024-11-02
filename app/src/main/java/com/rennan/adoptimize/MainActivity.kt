@@ -7,25 +7,31 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.rennan.adoptimize.databinding.ActivityCampanhasBinding
+import com.rennan.adoptimize.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private val binding by lazy{
+        ActivityMainBinding.inflate(layoutInflater)
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        val btnMudarPaginaQuemSomos: Button = findViewById(R.id.btnQuemSomos)
-        val btnMudarPaginaRelatorios: Button = findViewById(R.id.btnRelatorios)
-
-        // Configurando o clique no botão
-        btnMudarPaginaQuemSomos.setOnClickListener {
-            // Criando um Intent para iniciar a nova Activity
-            val intent = Intent(this, QuemSomosActivity::class.java)
-            startActivity(intent) // Iniciando a nova Activity
+        setContentView(binding.root)
+        binding.btnQuemSomos.setOnClickListener {
+            startActivity(Intent(this, QuemSomosActivity::class.java))
         }
-        btnMudarPaginaRelatorios.setOnClickListener {
-            // Criando um Intent para iniciar a nova Activity
-            val intent = Intent(this, RelatorioActivity::class.java)
-            startActivity(intent) // Iniciando a nova Activity
+
+        binding.btnRelatorios.setOnClickListener{
+            startActivity(Intent(this, RelatorioActivity::class.java))
+        }
+
+        binding.btnCampanhas.setOnClickListener{
+            startActivity(Intent(this, CampanhasActivity::class.java))
+        }
+
+        binding.btnConfiguracoes.setOnClickListener{
+            startActivity(Intent(this, ConfiguracoesActivity::class.java))
         }
     }
 }
