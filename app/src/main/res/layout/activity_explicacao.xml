@@ -25,14 +25,14 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="          Somos a AdOptimze"
+            android:text="Somos a JJSolutions"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A **AdOptimize** é uma plataforma que utiliza inteligência artificial para otimizar campanhas publicitárias de maneira automatizada. A solução processa dados em CSV fornecidos por ferramentas como o Google e analisa métricas de desempenho de campanhas (CPC, CTR, ROI, etc.). A IA oferece insights detalhados, permitindo ajustar a alocação de orçamento, segmentação de público e estratégias de palavras-chave, tudo com o objetivo de maximizar o retorno sobre investimento (ROI) e melhorar a performance das campanhas. Além disso, a plataforma gera previsões de desempenho e recomendações em tempo real." />
+            android:text="JJSolutions é um aplicativo para ajudar usuários a monitorar e registrar manualmente o consumo de energia elétrica doméstica. Ele permite visualizar o histórico de consumo, acompanhar gastos, receber dicas simples de economia e estimar o custo mensal de energia." />
 
         <Button
             android:id="@+id/btnp3"

@@ -43,7 +43,7 @@ class CampanhasActivity : AppCompatActivity() {
 
         if(idUsuarioLogado!=null) {
             bancoDados
-                .collection("campanhas")
+                .collection("eletrodomesticos")
                 .addSnapshotListener { querySnapshot, error ->
                     val listaDocs = querySnapshot?.documents
 
@@ -51,13 +51,13 @@ class CampanhasActivity : AppCompatActivity() {
                     listaDocs?.forEach { documentoSnapshot ->
                         val dados = documentoSnapshot?.data
                         if (dados != null) {
-                            val nomeCampanha = dados["nome"]
-                            val cliques = dados["cliques"]
-                            val visualizacoes = dados["visualizações"]
+                            val nomeEletrodomestico = dados["nome"]
+                            val consumo = dados["consumo"]
+                            val gasto = dados["gasto"]
 
-                            listaResultado = "Nome: $nomeCampanha " +
-                                    "\nCliques: $cliques" +
-                                    "\nvisualizações: $visualizacoes \n \n"
+                            listaResultado = "Nome: $nomeEletrodomestico " +
+                                    "\nCliques: $consumo" +
+                                    "\nvisualizações: $gasto \n \n"
                         }
                     }
                     binding.textViewLista.text = listaResultado
